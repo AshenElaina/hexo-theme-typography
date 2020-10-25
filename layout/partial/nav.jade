@@ -33,6 +33,15 @@ div#site-nav.site-title-links
             if theme.twitter
                 a(href="https://twitter.com/" + theme.twitter, target="_blank", rel="noopener noreferrer")
                     i.fa.fa-twitter &nbsp;
+            if theme.email
+                 a(href="mailto:" + theme.email, target="_blank", rel="noopener noreferrer")
+                     i.fa.fa-envelope &nbsp;
+            if theme.matrix
+                 a(href="https://matrix.to/#/" + theme.matrix, target="_blank", rel="noopener noreferrer")
+                     i.fa.fa-matrix-org &nbsp;
+            if theme.telegram
+                 a(href="https://t.me/" + theme.telegram, target="_blank", rel="noopener noreferrer")
+                     i.fa.fa-telegram &nbsp;
             if theme.instagram
                 a(href="https://www.instagram.com/" + theme.instagram, target="_blank", rel="noopener noreferrer")
                     i.fa.fa-instagram &nbsp;
