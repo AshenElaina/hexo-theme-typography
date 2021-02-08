@@ -10,6 +10,10 @@ div#site-nav.site-title-links
                 a.current(href=config.root + config.archive_dir)= __('Archive')
             else
                 a(href=config.root + config.archive_dir)= __('Archive')
+        li
+            a(href=config.root + "About")= __('About')
+        li
+            a(href=config.root + "Links")= __('Links')
         - if (site.categories.length > 0) {
         li
             if is_current('categories/')
